@@ -36,6 +36,7 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
    git
+   vim
   ];
 
   # List services that you want to enable:
